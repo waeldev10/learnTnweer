@@ -1,0 +1,187 @@
+
+@media all and (max-width:1000px) {
+
+    .sectioner-header {
+        width:85%;
+        margin-bottom: 20px;
+    }
+    .sectioner-header p {
+        color:#818992;
+        font-size: 16px;
+    }
+    .section-content {
+        margin-top: 60px;
+    }
+    /* ========================================== */
+    .navbar .navbar-collapse {
+        overflow: auto;
+        background: #fff;
+        color: var(--main_color) !important;
+        text-align: center;
+        padding: 10px 0;
+        border-radius: 8px;
+        width: 100%;
+        margin: 10px auto;
+    }
+    .navbar .navbar-collapse a{
+        color: var(--main_color);
+    }
+    .navbar .navbar-collapse a:hover{
+        color: #333;
+    }
+    .navbar .navbar-collapse 
+    .nav-scroll .navbar-collapse {
+        background: #fff !important;
+    }
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .navbar .logo-1{
+        width: 100px;
+    }
+    /* ============================================ */
+    .header {
+        padding:80px 0px;
+    }
+    .header .img{
+        margin-right:0px ;
+        margin-left: 0px;
+    }
+    .header-text {
+        padding-right:5px;
+        margin:60px 0px 0px;
+    }
+    .header-text h1{
+        font-size: 35px;
+    }
+    .header-text p {
+        margin:24px 0px;
+        font-size: 18px;
+    }
+    .header-text ul li a {
+        width: 120px;
+        height: 50px;
+        font-size: 17px;
+    }
+    .down {
+        border: 1px solid #fff;
+        color: #fff !important;
+    }
+    .more {
+        background-color: #ffffff !important;
+        color: var(--main_color) !important;
+    }
+    .prelative {
+        position:relative
+    }
+    /* ============================================ */
+    .feature{
+        padding: 0 0 20px 0;
+    }
+    .feature .single-feature{
+        margin: 5px 0;
+        flex-direction: column;
+    }
+    .feature .single-feature .icon .icons{
+        margin: 5px 0 10px 10px;
+
+    }
+    .feature .single-feature h5{
+        font-size: 20px ;
+        font-family: somar_blod;
+    }
+    .feature .single-feature p{
+        font-size: 16px;
+    }
+    .feature img{
+        transition: all .4s ease;
+    }
+    /* ============================================== */
+    .we-are {
+        padding:50px 0px 70px;
+    }
+    .mySwipers{
+        width: 95%;
+    }
+    .swiper-slide .card h4{
+        font-size: 25px;
+    }
+    .btn{
+        background-color: transparent;
+    }
+    .we-are .section-content .btn .swiper-button-next,
+    .we-are .section-content .btn .swiper-button-prev{
+        top: 120%;
+        transform: translateY(-120%);
+        width: 35px;
+        height: 35px;
+    }
+    .we-are .section-content .btn .swiper-button-next{
+        right:38%;
+    }
+    .we-are .section-content .btn .swiper-button-prev{
+        left: 38%;
+    }
+    /* =============================================== */
+    .contact{
+        padding: 50px 0;
+    }
+    .contact-info {
+        margin: 15px 0;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .contact-item {
+        margin:20px 0px;
+    }
+    /* ================================================= */
+    .download {
+        padding:50px 0px;
+    }
+    .download img {
+        width: 150px;
+    }
+    /* ================================================================= */
+    .salse{
+        padding: 120px 0 50px;
+    }
+    .salse .accordion{
+        margin: 10px 0;
+    }
+    .salse .accordion .accordion-body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .salse .accordion .accordion-body ul{
+        margin: 10px 30px 0 0;
+        width: 100%;
+    }
+    .salse .accordion .accordion-body ul li span{
+        margin: 10px 3px;
+    }
+    /* =============================================================== */
+    .faq{
+        padding: 50px 0;
+    }
+    .faq .content{
+        margin-right: 10px;
+    }
+    .faq .content p{
+        font-size: 16px;
+        margin: 10px 0 25px;
+    }
+    .faq .content a{
+        font-size: 17px;
+    }
+
+/* ====================== */
+
+.load img{
+	width: 60px;
+    height: 60px;
+}
+
+}
