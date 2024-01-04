@@ -5,6 +5,9 @@
         width:85%;
         margin-bottom: 20px;
     }
+    .sectioner-header h3{
+        font-size: 25px;
+    }
     .sectioner-header p {
         color:#818992;
         font-size: 16px;
@@ -43,7 +46,7 @@
     }
     /* ============================================ */
     .header {
-        padding:80px 0px;
+        padding:80px 0px 80px;
     }
     .header .img{
         margin-right:0px ;
@@ -76,9 +79,17 @@
     .prelative {
         position:relative
     }
+    .svg-wave {
+        bottom: 0;
+        width: 100% !important;
+    }
+    .svg-wave img{
+        width: 100% !important;
+        height: 80px;
+    }
     /* ============================================ */
     .feature{
-        padding: 0 0 20px 0;
+        padding: 20px 0 20px 0;
     }
     .feature .single-feature{
         margin: 5px 0;
@@ -119,10 +130,10 @@
         height: 35px;
     }
     .we-are .section-content .btn .swiper-button-next{
-        right:38%;
+        right:37%;
     }
     .we-are .section-content .btn .swiper-button-prev{
-        left: 38%;
+        left: 37%;
     }
     /* =============================================== */
     .contact{
@@ -159,8 +170,12 @@
         margin: 10px 30px 0 0;
         width: 100%;
     }
+    .salse .accordion .accordion-body ul li{
+        width: 100%;
+    }
     .salse .accordion .accordion-body ul li span{
-        margin: 10px 3px;
+        margin: 10px 1px;
+        font-size: 14px;
     }
     /* =============================================================== */
     .faq{

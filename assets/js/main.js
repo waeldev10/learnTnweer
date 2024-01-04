@@ -1,31 +1,23 @@
 
-
-function scrollFunction() {
-
-    let toTopBtn = document.getElementById("toTopBtn");
-        if(document.documentElement.scrollTop > 30){
-            toTopBtn.style.display = "block" ;
-        }else{
-            toTopBtn.style.display = "none";
-        }
-       
-}
+let myTop = document.getElementById("toTopBtn");
     
-function scrollToTop() {
-    document.documentElement.scrollTop = 0;
+window.onscroll = () => {
+
+    if(window.scrollY < 500){
+      myTop.style.opacity = "0";
+    }else{
+      myTop.style.opacity = "1";
+    }
 }
 
-window.onscroll = function() {
-    scrollFunction();
-};
-    
+myTop.addEventListener("click", () => {
+    window.scrollTo({
+        left: 0,
+        top: 0,
+        behavior:"smooth"
+    });
+});
 
-// $(document).ready(function(e) {
-
-// $('.slider').bxSlider({
-// pager: false
-// });
-// });
 
 $(window).on("scroll",function () {
 
